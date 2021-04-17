@@ -70,7 +70,7 @@ const uiConfig = {
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "logo_link_name": "https://github.com/WarLock-Projects/srcs/pack1/warlock_main_02.png", // if logo is true then link otherwise just text for name
+    "logo_link_name": "https://cdn.jsdelivr.net/gh/warlock-pro/Google-Drive-Index@master/images/indexlogo.png", // if logo is true then link otherwise just text for name
     "contact_link": "https://t.telegram.ind.in/warlockprojects", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
     "company_name": "WarLock Projects", // Name next to copyright
