@@ -7,7 +7,7 @@ const clientId = '58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleuserco
 const clientSecret = 'ZNPZ-vS6N9Zjsyb_sNMZmXHL';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Drive-Index/master/worker/worker-beta.js';
+const jsURL = 'https://raw.githubusercontent.com/warlock-pro/Google-Drive-Index/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
@@ -45,8 +45,8 @@ async function handleRequest(request) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <title>Bhadoo Drive Index - Beta</title>
-    <link rel="icon" type="image/x-icon" href="https://www.cloudflare.com/favicon.ico"/>
+    <title>WarLock Drive Index</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/warlock-pro/Google-Drive-Index@master/images/favicon.png"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/css/mdui.min.css">
     <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/js/mdui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
@@ -335,7 +335,7 @@ async function handleRequest(request) {
     <div class="mdui-typo">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
     </div>
-    <center><h5>© 2021 - Bhadoo Cloud Cyber Systems</h5></center>
+    <center><h5>© 2021 - WarLock Drive Index</h5></center>
 </div>
 
 <script>
